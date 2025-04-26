@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { motion } from 'framer-motion';
 import { FiDownload } from 'react-icons/fi';
 import SectionHeading from '../ui/SectionHeading';

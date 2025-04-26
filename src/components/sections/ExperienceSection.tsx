@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import SectionHeading from '../ui/SectionHeading';
-import { FiBriefcase, FiBook, FiAward, FiUsers, FiCode, FiHeart } from 'react-icons/fi';
+import { FiBook, FiUsers, FiCode, FiHeart } from 'react-icons/fi';
 import React from 'react';
 
 // Define the activity item type
