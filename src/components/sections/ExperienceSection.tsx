@@ -24,7 +24,7 @@ const experiences: ActivityItem[] = [
     title: 'Bachelor of Technology',
     organization: 'Lovely Professional University',
     location: 'Phagwara, Punjab',
-    description: 'Computer Science and Engineering; CGPA: 7.12',
+    description: 'Computer Science and Engineering; CGPA: 7.3',
     date: 'Sep 2022 - Present',
     icon: <FiBook />
   },
@@ -105,7 +105,7 @@ export default function ExperienceSection() {
   };
 
   return (
-    <section id="experience" className="py-20">
+    <section id="education" className="py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading 
           title="Education & Activities" 

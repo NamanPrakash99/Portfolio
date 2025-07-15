@@ -7,6 +7,23 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 const projects = [
   {
     id: 1,
+    title: 'Affiliate Link Sharing (Affiliate++)',
+    description: 'Affiliate++ is a web-based SaaS platform designed to help content creators, marketers, and businesses manage, shorten, and track affiliate links with ease. It offers real-time click analytics, campaign-wise organization, and role-based access — enabling users to optimize their affiliate strategies and boost performance effortlessly.',
+    image: 'Affiliate.png',
+    technologies: ['React', 'Node.js','MongoDB', 'Google OAuth', 'Express.js', 'Razorpay'],
+    features: [
+      'Generate clean, custom short links for affiliate URLs.',
+      'Track total clicks, timestamps, referrer sources, and basic geo-location of each visit.',
+      'Organize links by campaigns, platforms, or products for better performance tracking.',
+      'Support for multiple users with different roles (e.g., Admin, Marketer).',
+      'Secure login/signup with JWT-based session management.'
+    ],
+    github: 'https://github.com/NamanPrakash99/MERN-Project-1',
+    live: '',
+    date: 'Jun 2025'
+  },
+  {
+    id: 2,
     title: 'CCTV Smart Surveillance & Monitoring System',
     description: 'Developed a web-based surveillance system leveraging existing CCTV infrastructure to enable real-time crowd monitoring, crime detection, and worksite oversight, improving operational efficiency by 50%.',
     image: '/Dashboard.png',
@@ -21,7 +38,7 @@ const projects = [
     date: 'Mar 2024'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Weather Application',
     description: 'Developed a fully functional weather application using React, enabling real-time weather updates, location-based forecasts, and interactive UI, increasing user engagement by 45%.',
     image: '/Weather.png',
@@ -36,7 +53,7 @@ const projects = [
     date: 'Jan 2024'
   },
   {
-    id: 3,
+    id: 4,
     title: 'E-Commerce Website',
     description: 'Developed a fully functional e-commerce platform with product browsing, cart management, and secure payments, increased user engagement by 40%.',
     image: '/E-Commerce.png',
@@ -52,7 +69,7 @@ const projects = [
     date: 'Nov 2024'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Cement Procurement and Management Platform',
     description: 'Created a web platform for cement procurement and order management, boosted order processing efficiency by 35%.',
     image: '/Cement.png',
